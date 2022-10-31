@@ -15,29 +15,5 @@ a={['Tanishka','Ashish','Vipul','Arpit','Krishna','Vinay','Sidharth','Rishikesh'
 
 for i in range(10):
     print(f"{Names1[i]},{Marks[i]} {Updates[i]}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
