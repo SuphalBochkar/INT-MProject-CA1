@@ -8,4 +8,3 @@
 # username :abc and domain: GMAIL.COM    username: xyz and domain: YAHOO.COM
 
 email=str(input("Enter th E-Mail:"))
-print(email)
