@@ -5,3 +5,4 @@
     # Searching single contact is one of the functionalities, some other functionalities your app must cover are:
     # Your app must be capable of displaying all the contacts with your classmate names present in the repository.
     # Your app must be capable of extracting contact numbers of your multiple classmates when required.
+    
