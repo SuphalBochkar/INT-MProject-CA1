@@ -8,14 +8,30 @@
     # User: Rock, Paper or Scissors?         Rock, Paper or Scissors?
     # CPU: scissors                          End the game
     # You lose… Rock smashes Scissors        Final Scores:
-    # CPU:1           Hint: Make use of random module to design the game
-    # User:1
-import random
+    # CPU:1           Hint: Make use of random module to design the game User:1
+    
+# TO Exit Programe
+import sys
+i=(input('sdsd'))
+while True:
+    x=input('Type Exit to Exit: ')
+    if  x== 'exit' | 'Exit':
+        print('you typed exit')
+        sys.exit()
+    
 
-print("Welcome to RPS")
-uc = input("Enter either r or p or s\n")
-cc = ["r","p","s"]
-cs = random.choice(cc)
-print(f'user choice is {uc} and pc choice is {cs}')
+
+
+
+
+
+# import random
+# print("Welcome to RPS")
+# uc = input("Enter either r or p or s\n")
+# cc = ["r","p","s"]
+# cs = random.choice(cc)
+# print(f'user choice is {uc} and pc choice is {cs}')
+
+
 
 
