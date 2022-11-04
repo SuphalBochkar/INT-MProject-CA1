@@ -9,3 +9,12 @@
     # username :abc and domain: GMAIL.COM    username: xyz and domain: YAHOO.COM
 
 email=str(input("Enter th E-Mail:"))
+list('hello')
+# ['h', 'e', 'l', 'l', 'o']
+list=list(email)
+print(list)
+print(str(list))
+for i in list:
+    if i == '@':
+        break
+    print('a')

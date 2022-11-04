@@ -18,13 +18,6 @@ while True:
     if  x== 'exit' | 'Exit':
         print('you typed exit')
         sys.exit()
-    
-
-
-
-
-
-
 # import random
 # print("Welcome to RPS")
 # uc = input("Enter either r or p or s\n")
