@@ -17,5 +17,19 @@
     # C can be placed before D (500) and M (1000) to make 400 and 900.
     # Your task is create a converter which converts given roman numeral to an integer.
     
+x=int(input())
+r=x%5
+r=0
+if x <= 5:
+    if x==1:
+        print('I')
+    if x==2:
+        print('II')
+    if x==3:
+        print('III')
+    if x==4:
+        print('VI')
+    if x==5:
+        print('V')
 
         
