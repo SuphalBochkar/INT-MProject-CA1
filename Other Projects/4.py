@@ -6,6 +6,12 @@
     # Inclusion of at least one special character, e.g., @ #?]
     # Note: do not use < or > in your password, as both can cause problems in Web browsers.
 import random
-y=range (0,9)
-x=random.y
-print(x)
+# range(start,end,incriment)
+
+
+a=range (0,10,2)
+b=random.y
+while 1:
+    
+    print(b)
+    
