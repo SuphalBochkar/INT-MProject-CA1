@@ -7,5 +7,11 @@
     # and these scores goes on adding if user play this game multiple number of times.
     # Note: Dice contains face value’s (1 to 6)
     # Hint: Make use of random.randint() function
+import random
+user_choice=int(input("Dice Number:"))
+if user_choice < 0:
+    print("invalid")
+pc_choice=random.randint(1,6)
 
-a=int(input("Dice Number:"))
+
+
