@@ -7,3 +7,23 @@
     # Output: 90°
     # Input: 12:00
     # Output: 0°
+
+a=input("enter time")
+b=a.split(" ",)
+print(b)
+
+h=int(input())
+m=int(input())
+if 0<= h <=12 and 0<= m <= 60:
+    h=h%12
+    if m ==60:
+        h+=1
+        m==0
+    h=h+m/60
+    u=abs(h-m/(60/12))
+    a
+    
+    
+    
+else :
+    print("Enter Valid Time"())
