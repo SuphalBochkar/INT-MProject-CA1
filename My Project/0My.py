@@ -23,10 +23,13 @@ Updates =  [-5,+2,-9,-7,+9,-1,-7,-3,-6,+3]
 # for i in Names.values():
 #     print(i)
 
-for keys in Names1.keys():
-     print(keys)
+# for keys in Names1.keys():
+#      print(keys)
 
-for value in Names1.values():
+# for value in Names1.values():
 #      print(value)
 
+# for item in Names1.items():
+#      print(item)
 
+pprint.pprint(Names1)
