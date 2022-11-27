@@ -17,5 +17,16 @@ Updates =  [-5,+2,-9,-7,+9,-1,-7,-3,-6,+3]
 # for i in range(10):
 #     print(f"{Names1[i]},{Marks[i]} {Updates[i]}")
 
-for i,j in zip(Names,Marks):
-    print(f'{i} got {j} marks')
+# for i,j in zip(Names,Marks):
+#     print(f'{i} got {j} marks')
+
+# for i in Names.values():
+#     print(i)
+
+for keys in Names1.keys():
+     print(keys)
+
+for value in Names1.values():
+#      print(value)
+
+
