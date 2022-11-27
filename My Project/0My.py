@@ -11,6 +11,9 @@ Updates =  [-5,+2,-9,-7,+9,-1,-7,-3,-6,+3]
 # for i in range(len(Names)):
 #     print(f"Name: {Names[i]} Marks: {Marks[i]} Updates: {Updates[i]}")
 
-for i in range(len(Marks)):
-    print(f"Name: {Names[i]} Marks: {Marks[i]} Updates: {Updates[i]}")
+# for i in range(len(Marks)):
+#     print(f"Name: {Names[i]} Marks: {Marks[i]} Updates: {Updates[i]}")
+
+for i in range(10):
+    print(f"{Names1[i]},{Marks[i]} {Updates[i]}")
 
