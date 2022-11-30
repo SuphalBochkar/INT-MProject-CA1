@@ -13,3 +13,11 @@ print(d)
 for i in range(len(Names)):
     print(f"{i+1}. Name: {Names[i]} Marks: {Marks[i]}")
     updated_m += [Marks[i] + Updates[i]]
+print(updated_m)
+
+
+    
+for i in range(len(Marks)):
+    print(f"Name: {Names[i]} Marks: {Marks[i]} Updates: {updated_m[i]}")
+    
+    
