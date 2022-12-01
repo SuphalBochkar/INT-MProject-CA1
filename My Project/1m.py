@@ -21,3 +21,9 @@ for i in range(len(Marks)):
     print(f"Name: {Names[i]} Marks: {Marks[i]} Updates: {updated_m[i]}")
     
     
+    
+# for i in range(10):
+#     print(f"{Names1[i]},{Marks[i]} {Updates[i]}")
+# for i,j in zip(Names,Marks):
+#     print(f'{i} got {j} marks')
+# for i in Names.values():
