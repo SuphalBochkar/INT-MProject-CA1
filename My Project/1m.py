@@ -31,3 +31,9 @@ for i in range(len(Marks)):
 # for keys in Names1.keys():
 #      print(keys)
 # for value in Names1.values():
+#      print(value)
+# for item in Names1.items():
+#      print(item)
+
+pprint.pprint(Names)
+
