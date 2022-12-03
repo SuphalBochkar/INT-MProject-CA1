@@ -2,6 +2,20 @@
 
 # Function to print the name of student who
 # stood first after updation in rank
+def nameRank(names, marks, updates, n):
+	
+	# Array of students
+	x = [[0 for j in range(3)] for i in range(n)]
+	for i in range(n):
+		print("kasjdfhkjsdfhksjdfhksdjf",x)
+		# Store the name of the student
+		x[i][0] = names[i]
+		
+		# Update the marks of the student
+		x[i][1]= marks[i] + updates[i]
+		
+		# Store the current rank of the student
+		x[i][2] = i + 1
 		
 	highest = x[0]
 	for j in range(1, n):
