@@ -40,3 +40,18 @@ for i in range(len(b)):
 
 
 
+
+
+
+
+
+
+
+
+
+
+# ! Full List Explore
+print("Old Ranking")
+for i in range(len(b)):
+    print(f"{i+1}. Names: {b[i][0]}, Marks: {b[i][1]}")
+print("New Ranking")
