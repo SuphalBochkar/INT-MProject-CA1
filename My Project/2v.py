@@ -62,3 +62,10 @@ for i in range(len(c)):
 # print("Old Ranking\n")
 # for i in range (len(names)):
 #     print(f"{i+1}. Names: {names[i]}  Marks:  {marks[i]}")
+
+# # !Print New Row
+# print("New Ranking")
+# for i in range(len(b)):
+#     print(f"{i+1}. Names: {b[i][0]}, Marks: {b[i][1]}\n")
+
+
