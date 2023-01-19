@@ -14,3 +14,21 @@ def ranking(d):
 
     for i in range(len(d)):
         print("Rank",l[i],":",rank[i][0])
+
+ranking(d)
+
+M=max(d.items(),key=lambda x:x[1])
+print("\nMax Marks",*M,sep=" : ")
+
+print("\n")
+
+update=map(int,input("Enter Updated Marks: ").split(","))
+
+print("\n")
+
+d.update(dict(zip(name,update)))
+
+ranking(d)
+
+M=max(d.items(),key=lambda x:x[1])
+print("\nMax Marks",*M,sep=" : ")
