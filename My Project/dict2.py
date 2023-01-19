@@ -48,3 +48,10 @@ print("\n")
 update=[-5,+2,-9,-7,+9]
 
 print("\n")
+
+d.update(dict(zip(name,update)))
+
+ranking(d)
+
+M=max(d.items(),key=lambda x:x[1])
+print("\nMax Marks",*M,sep=" : ")
