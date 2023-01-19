@@ -42,3 +42,9 @@ ranking(d)
 
 M=max(d.items(),key=lambda x:x[1])
 print("\nMax Marks",*M,sep=" : ")
+
+print("\n")
+
+update=[-5,+2,-9,-7,+9]
+
+print("\n")
