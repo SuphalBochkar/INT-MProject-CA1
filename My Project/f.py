@@ -5,3 +5,8 @@ updates = [-26,-12,-20,-14,17,-24,-6,19,-4,8]
 a={}
 um=[]
 ua={}
+for i in range (len(names)):
+    a[names[i]]=marks[i]
+    um=um+[marks[i]+updates[i]]
+    ua[names[i]]=um[i] 
+   
