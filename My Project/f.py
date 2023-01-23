@@ -10,3 +10,10 @@ for i in range (len(names)):
     um=um+[marks[i]+updates[i]]
     ua[names[i]]=um[i] 
    
+b=sorted(a.items(), key=lambda z:(z[1],z[0]), reverse=True)
+c=sorted(ua.items(), key=lambda z:(z[1],z[0]),reverse=1)
+print(b)
+print(c)
+
+# # !Top Ranker in one row
+
