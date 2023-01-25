@@ -10,3 +10,13 @@ for i in range(len(names)):
     ua[names[i]] = um[i]
 b = sorted(a.items(), key=lambda k:(k[1], k[0]), reverse=True)
 c = sorted(ua.items(), key=lambda k:(k[1], k[0]), reverse=True)
+
+# ! List Explore
+# print("Old Ranking")
+# for i in range(len(b)):
+#     print(f"{i+1}. Names: {b[i][0]}, Marks: {b[i][1]}")
+# print("New Ranking")
+# for i in range(len(c)):
+#     print(f"{i+1}. Names: {c[i][0]}, Marks: {c[i][1]}")
+
+
