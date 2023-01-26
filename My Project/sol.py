@@ -27,3 +27,13 @@ for i in range(len(b)):
         print(f"Name: {c[0][0]}, New Marks {c[0][1]}, New Rank: 1, Old Marks {b[i][1]}, Old Rank: {i+1}")
 
 
+for i in range(len(c)):
+    if i != 0:
+        print(f"Rank: {i+1} ")
+        print(f"Names: {c[i][0]}")
+        print(f"Marks: {c[i][1]}")
+    for j in range(len(b)):
+        if c[i][0] in b[j]:
+            if i != 0:
+                print(f"Old rank: {j+1}")
+                print(f"Old Marks: {b[j][1]}")
