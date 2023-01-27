@@ -13,3 +13,8 @@ b=sorted(a.items(), key=lambda z:(z[1],z[0]), reverse=True)
 c=sorted(ua.items(), key=lambda z:(z[1],z[0]),reverse=1)
 
 # # !Top Ranker in one row
+for i in range(len(b)):
+    if c[1][0] == b[i][0] :
+        print(f"Name: {c[0][0]}, New Marks {c[0][1]}, New Rank: 1, Old Marks {b[i][1]}, Old Rank: {i+1}  Rank Jump: {i+1}" ) 
+print()
+
