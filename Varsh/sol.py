@@ -1,9 +1,3 @@
-for i in range(len(names)):
-    a[names[i]] = marks[i]
-    um += [marks[i]+updates[i]]
-    ua[names[i]] = um[i]
-b = sorted(a.items(), key=lambda k:(k[1], k[0]), reverse=True)
-c = sorted(ua.items(), key=lambda k:(k[1], k[0]), reverse=True)
 
 # ! List Explore
 # print("Old Ranking")
