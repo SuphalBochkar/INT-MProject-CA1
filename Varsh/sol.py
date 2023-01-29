@@ -1,9 +1,3 @@
-for i in range(len(c)):
-    if i != 0:
-        print(f"Rank: {i+1} ")
-        print(f"Names: {c[i][0]}")
-        print(f"Marks: {c[i][1]}")
-    for j in range(len(b)):
         if c[i][0] in b[j]:
             if i != 0:
                 print(f"Old rank: {j+1}")
