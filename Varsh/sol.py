@@ -1,10 +1,3 @@
-
-
-for i in range(len(b)):
-    if b[i][0] == c[0][0]:
-        print(f"Name: {c[0][0]}, New Marks {c[0][1]}, New Rank: 1, Old Marks {b[i][1]}, Old Rank: {i+1}")
-
-
 for i in range(len(c)):
     if i != 0:
         print(f"Rank: {i+1} ")
